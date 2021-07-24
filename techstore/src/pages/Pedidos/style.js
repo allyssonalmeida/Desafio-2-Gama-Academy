@@ -23,6 +23,10 @@ export const Container = styled.section`
       margin-top: 10px;
     }
   }
+
+  @media(max-width: 1200px){
+    grid-column: 1;
+  }
 `
 
 export const Alert = styled.div`
@@ -39,6 +43,10 @@ export const PedidosWrapper = styled.ul`
   display: flex;
   flex-direction: column;
   width: 600px;
+
+  @media(max-width: 768px){
+    width: 90vw;
+  }
 `
 export const PedidoItem = styled.li`
   display: flex;
@@ -53,6 +61,25 @@ export const PedidoItem = styled.li`
     padding: 10px 15px;
     &:hover{
       background: #127E3E;
+    }
+  }
+
+  @media(max-width: 768px){
+    font-size: .9rem;
+    padding: 5px 0;
+    flex-wrap: wrap;
+    align-items: center;
+    & div{
+      display: block;
+      width: 60vw;
+    }
+    .ver_pedido{
+      background: #38C973;
+      color: #fff;
+      padding: 5px 10px;
+      &:hover{
+        background: #127E3E;
+      }
     }
   }
 `

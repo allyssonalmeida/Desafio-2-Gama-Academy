@@ -57,4 +57,23 @@ export const Container = styled.section`
       padding: 10px;
     }
   }
+
+  @media(max-width: 1200px){
+    grid-column: 1;
+  }
+
+  @media(max-width: 768px){
+    .responsiveTable{
+      overflow-x: scroll;
+      width: 90vw;
+      margin: 0 auto;
+      padding: 0 15px;
+
+      & table{
+        & td{
+          font-size: .8rem;
+        }
+      }
+    }
+  }
 `

@@ -31,8 +31,8 @@ export default createGlobalStyle`
 
   @media(max-width: 768px){
     main{
-      grid-template-columns: calc(100vw - 20px);
-      padding: 10px;
+      grid-template-columns: 100vw;
+      padding: 0;
     }
   }
 `

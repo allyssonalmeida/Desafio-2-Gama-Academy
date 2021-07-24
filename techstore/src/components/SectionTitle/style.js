@@ -15,4 +15,14 @@ export const TitleWrapper = styled.h1`
     background: #7DDF8D;
     margin: 5px 0;
   }
+  @media(max-width: 768px){
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    padding: 0 15px;
+    &:after{
+      height: 3px;
+      width: 30px;
+    }
+  }
 `

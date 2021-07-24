@@ -27,4 +27,14 @@ export const FooterContainer = styled.footer`
   .copy{
     font-size: .875rem;
   }
+
+  @media(max-width: 1200px){
+    grid-column: 1;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    min-height: 20px;
+    margin-top: 10px;
+  }
 `

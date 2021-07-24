@@ -50,4 +50,19 @@ export const Container = styled.section`
     padding: 10px;
     text-align: center;
   }
+
+  @media(max-width: 768px){
+    width: 90vw;
+    & h4{
+      font-size: 1rem;
+      width: initial;
+      padding: 10px 20px;
+    }
+
+    & form {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 10px 20px;
+    }
+  }
 `

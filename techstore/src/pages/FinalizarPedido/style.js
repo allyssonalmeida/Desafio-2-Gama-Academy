@@ -21,6 +21,14 @@ export const Container = styled.section`
       margin-top: 10px;
     }
   }
+
+  @media(max-width: 1200px){
+    grid-column: 1;
+  }
+  @media(max-width: 768px){
+    width: 90vw;
+    margin: 0 auto;
+  }
 `;
 
 export const Form = styled.form`
@@ -41,6 +49,11 @@ export const Form = styled.form`
 
   .w-50{
     grid-column: span 1;
+  }
+
+  @media(max-width: 768px){
+    width: 80vw;
+    grid-template-columns: 1fr;
   }
 `
 export const FormGroup = styled.div`

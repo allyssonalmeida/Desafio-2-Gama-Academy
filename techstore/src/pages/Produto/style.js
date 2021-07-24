@@ -40,6 +40,19 @@ export const Container = styled.section`
       }
     }
   }
+
+  @media(max-width: 1200px){
+    grid-column: 1;
+    grid-template-columns: 90vw;
+
+    & img{
+      grid-column: 1;
+      height: 300px;
+    }
+    .dados{
+      grid-column: 1;
+    }
+  }
 `
 
 export const Alert = styled.div`

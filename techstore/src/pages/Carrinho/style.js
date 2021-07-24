@@ -57,6 +57,15 @@ export const Container = styled.section`
     text-align: center;
     flex-grow: 2;
   }
+
+  @media(max-width: 1200px){
+    grid-column: 1;
+  }
+  @media(max-width: 768px){
+    .cart, .finalizar{
+      width: 90vw;
+    }
+  }
 `
 export const CartWrapper = styled.ul`
   display: flex;
